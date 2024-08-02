@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            background: #3498db url(paisaje.jpg)no-repeat center center / cover fixed;
+        }
+        .ventanaOpciones{
+            width: 50%;
+            border-collapse: collapse;
+            margin: 0 auto;
+            color:rgba(255, 255, 255, 0.9);
+            background-color: rgba(41, 37, 37, 0.5);
+            text-align: center;
+            border:  3px solid rgba(41, 37, 37, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <h1>Creador de Foletas en HTML</h1>
+    <div class="ventanaOpciones">
+        <table>
+            <h3>Elija sus preferencias</h3>
+            <form action="listaProducto.php" method="post">
+                <p>Cantidad de Productos:</p>
+                <input type="number" name="cantidad" required>
+                <br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </table>
+    </div>
+</body>
+</html>
