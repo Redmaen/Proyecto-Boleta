@@ -15,7 +15,9 @@
         .formtext{
             color:azure;
         }
-
+        h1{
+            color: brown;
+        }
         table{
             color:azure;
             background-color: rgba(41, 37, 37, 0.4);
@@ -24,6 +26,7 @@
 
             border-collapse: collapse;
         }
+
         table, th, td{
             border: 1px solid black;
         }
@@ -34,6 +37,7 @@
     </style>
 </head>
 <body>
+    <h1>Productos</h1>
     <table border="1">
         <tr>
             <th>&nbsp Indice &nbsp</th>
